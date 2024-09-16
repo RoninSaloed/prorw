@@ -2,7 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      cormorant: ["Cormorant Garamond", "sans-serif"],
+      onest: ["Onest", "sans-serif"],
+    },
+    extend: {
+      colors: {},
+    },
   },
   plugins: [],
 };
