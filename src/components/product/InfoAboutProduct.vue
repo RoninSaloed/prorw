@@ -7,7 +7,7 @@
     </div>
     <div class="font-cormorant text-[32px] mt-[50px] mb-5">Vest</div>
 
-    <div v-if="!getIsMobile" class="mb-5">
+    <div v-if="!getIsMobile" class="mb-5 sm:text-base text-[11px]">
       {{
         `Перероблений декорований жилет. Класичний\n крій. Асиметричний декор -
       бісерна бахрома.\n Декоритивний рукав-крило з вінтажної тюлі.`
@@ -16,10 +16,10 @@
 
     <div class="sm:w-[370px] w-[250px] h-[1px] bg-[#DDDDDD] mb-5"></div>
 
-    <div class="mb-5">₴1 000</div>
+    <div class="mb-5 sm:text-base text-[11px]">₴1 000</div>
 
     <div class="mb-5">
-      <div class="mb-[5px]">Розмір:</div>
+      <div class="mb-[5px] sm:text-base text-[11px]">Розмір:</div>
       <ul class="flex">
         <li
           v-for="(item, idx) of sizesEnum"
@@ -35,7 +35,7 @@
       </ul>
     </div>
     <div class="mb-5">
-      <div class="mb-[5px]">Колір:</div>
+      <div class="mb-[5px] sm:text-base text-[11px]">Колір:</div>
       <ul class="flex">
         <li
           v-for="(item, idx) of colorsEnum"
@@ -50,14 +50,16 @@
         </li>
       </ul>
     </div>
-    <button class="bg-dark px-[50px] py-[10px] text-white mb-5">
+    <button
+      class="bg-dark px-[50px] py-[10px] text-white mb-5 sm:text-base text-[11px]"
+    >
       Додати у кошик
     </button>
-    <div class="font-light mb-5">SKU: V0423001</div>
+    <div class="font-light mb-5 sm:text-base text-[11px]">SKU: V0423001</div>
     <div class="sm:w-[370px] w-[250px] h-[1px] bg-[#DDDDDD] smb-[30px]"></div>
 
     <div
-      class="font-light font-cormorant mb-[10px] text-[32px] opacity-50 flex items-center cursor-pointer"
+      class="font-light font-cormorant mb-[10px] sm:text-[32px] text-base opacity-50 flex items-center cursor-pointer"
       @click="toggleDescription()"
     >
       Деталі
@@ -66,7 +68,7 @@
       /></span>
     </div>
     <div v-if="isOpenDescription" class="mb-[50px]">
-      <ul class="font-light opacity-50 font-onest">
+      <ul class="font-light opacity-50 font-onest sm:text-[16px] text-[11px]">
         <li
           class="relative pl-[10px] before:content-[''] before:absolute before:left-0 before:top-1/2 before:w-1 before:h-1 before:bg-dark before:transform before:-translate-y-1/2"
         >

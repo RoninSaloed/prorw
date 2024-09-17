@@ -2,7 +2,7 @@
   <button
     @click="selectOption(title)"
     :class="{
-      'text-base border-[0.5px] border-dark px-[10px] py-[2px]': true,
+      'sm:text-base text-[11px] border-[0.5px]  border-dark px-[10px] py-[2px]': true,
       'bg-slate-400': active,
     }"
   >
