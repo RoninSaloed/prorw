@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container-[1240px] sm:px-[50px] px-[10px] lg:flex lg:justify-between font-onest"
+    class="container-[1240px] sm:px-[50px] px-[10px] lg:flex lg:flex-row-reverse lg:justify-between font-onest"
   >
     <product-pictures />
 
