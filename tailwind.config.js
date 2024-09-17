@@ -7,7 +7,10 @@ export default {
       onest: ["Onest", "sans-serif"],
     },
     extend: {
-      colors: {},
+      colors: {
+        "line-color": "#DDDDDD",
+        "dark":"#000000"
+      },
     },
   },
   plugins: [],
