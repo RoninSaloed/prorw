@@ -1,6 +1,6 @@
 <template>
   <button class="relative" @click="toggleDropdown()">{{ selectedLang }}</button>
-  <ul v-show="isDropdownOpen" class="absolute md:top-12">
+  <ul v-show="isDropdownOpen" class="absolute md:top-10">
     <li
       v-for="(item, idx) of langOptions"
       :key="idx"

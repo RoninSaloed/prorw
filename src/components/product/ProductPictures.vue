@@ -16,12 +16,12 @@
     <div class="lg:flex">
       <img
         src="../../assets/productImg/Product.png"
-        class="lg:h-[455px] lg:w-[326px] w-[150px] h-[200px] min-w-[150px] lg:mb-5"
+        class="lg:h-[455px] lg:w-[326px] w-[150px] h-[194px] min-w-[150px] lg:mb-5 mb-3"
         alt=""
       />
       <img
         src="../../assets/productImg/Product.png"
-        class="lg:h-[455px] lg:w-[326px] lg:ml-5 w-[150px] h-[200px] min-w-[150px] lg:mb-5"
+        class="lg:h-[455px] lg:w-[326px] lg:ml-5 w-[150px] h-[194px] min-w-[150px] lg:mb-5"
         alt=""
       />
     </div>

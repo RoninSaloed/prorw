@@ -4,5 +4,28 @@
     "shop": "Shop",
     "collections": "Collections",
     "cart": "Cart [ ]"
+  },
+  "product": {
+    "home": "Home",
+    "waistcoats": "Waistcoats",
+    "product_info": "Recycled decorated vest. Classic\n cut. Asymmetric decor - beaded fringe.\n Decorative vintage tulle wing sleeve.",
+    "size": "Size:",
+    "color": "Color:",
+    "add_cart": "Add to cart",
+    "details": "Details",
+    "param": "65% Cotton, 35% viscose",
+    "unique": "Each shirt is unique",
+    "made": "made in Ukraine"
+  },
+  "proposals": {
+    "like": "What you might like",
+    "short": "Gloves are short",
+    "long": "Gloves are long",
+    "crop": "Crop-vest"
+  },
+  "footer": {
+    "delivery": "Delivery Policy",
+    "privacy": "Privacy Policy",
+    "refund": "Refund Policy"
   }
 }

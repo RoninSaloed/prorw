@@ -9,7 +9,8 @@ export default {
     extend: {
       colors: {
         "line-color": "#DDDDDD",
-        "dark":"#000000"
+        dark: "#000000",
+        light: "#DDDDDD",
       },
     },
   },

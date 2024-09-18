@@ -11,9 +11,9 @@
       </p>
 
       <ul class="sm:text-sm text-[11px]">
-        <li class="sm:mb-5 mb-[10px]">Політика доставки</li>
-        <li class="sm:mb-5 mb-[10px]">Політика конфеденційності</li>
-        <li class="sm:mb-0 mb-[20px]">Політика повернення коштів</li>
+        <li class="sm:mb-5 mb-[10px]">{{ t("footer.delivery") }}</li>
+        <li class="sm:mb-5 mb-[10px]">{{ t("footer.privacy") }}</li>
+        <li class="sm:mb-0 mb-[20px]">{{ t("footer.refund") }}</li>
       </ul>
       <ul class="sm:text-sm text-[11px]">
         <li class="sm:mb-5 mb-[10px]">Instagram</li>
@@ -23,4 +23,8 @@
   </footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+</script>

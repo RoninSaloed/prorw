@@ -1,7 +1,7 @@
 <template>
   <div class="lg:px-[50px] px-[10px]">
     <div class="md:text-[32px] mb-[50px] mt-[100px] text-base font-cormorant">
-      Те що вам може сподобатись
+      {{ t("proposals.like") }}
     </div>
     <div
       class="flex md:text-base justify-center text-[11px] sm:pb-[100px] pb-[50px]"
@@ -13,7 +13,7 @@
           alt=""
         />
         <div class="flex justify-between mt-[10px]">
-          <div>Рукавички короткі</div>
+          <div>{{ t("proposals.short") }}</div>
           <div>₴1 000</div>
         </div>
       </div>
@@ -24,7 +24,7 @@
           alt=""
         />
         <div class="flex justify-between mt-[10px]">
-          <div>Рукавички довгі</div>
+          <div>{{ t("proposals.long") }}</div>
           <div>₴1 000</div>
         </div>
       </div>
@@ -36,7 +36,7 @@
           alt=""
         />
         <div class="flex justify-between mt-[10px]">
-          <div>Кроп-жилет</div>
+          <div>{{ t("proposals.crop") }}</div>
           <div>₴1 000</div>
         </div>
       </div>
@@ -47,7 +47,8 @@
 <script setup lang="ts">
 import { storeToRefs } from "pinia";
 import { useApplicationStore } from "../../stores/application.store";
-
+import { useI18n } from "vue-i18n";
+const { t } = useI18n();
 const store = useApplicationStore();
 const { getIsMobile } = storeToRefs(store);
 </script>
